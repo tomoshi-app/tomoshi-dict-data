@@ -23,6 +23,13 @@ The data ships as a single SQLite file, `tomoshi-dict-open.db`, attached to
 each [GitHub Release](../../releases) (zstd-compressed). Releases track the
 data versions shipped in the Tomoshi app.
 
+The same file is mirrored, with identical SHA-256, on
+[Hugging Face](https://huggingface.co/datasets/yuany1z/tomoshi-dict-data)
+(dataset `yuany1z/tomoshi-dict-data`, tagged per version) and archived on
+[Zenodo](https://doi.org/10.5281/zenodo.22672053) with a DOI for citation (this DOI always resolves
+to the latest version; each release also has its own):
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22672053.svg)](https://doi.org/10.5281/zenodo.22672053)
+
 ## What's inside
 
 | Table | Contents |
