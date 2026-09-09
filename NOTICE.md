@@ -10,9 +10,10 @@ Group** (EDRDG), and are used in conformance with the Group's licence
 The JMdict/KANJIDIC2-derived content in this package has been modified: the
 XML sources are restructured into SQLite, example sentences are removed, and
 derived layers (Japanese definitions, Chinese gloss translations, kanji
-variant/contrast/synonym/transitivity notes, frequency rankings, Chinese kanji
-glosses) have been added by Y1Z with LLM assistance, using the upstream gloss
-text as input. These derived layers are © Y1Z and are licensed under the same
+variant/contrast/synonym/transitivity notes in Chinese and English,
+English→Japanese word-choice cards, frequency rankings, Chinese kanji glosses)
+have been added by Y1Z with LLM assistance, using the upstream gloss text as
+input. These derived layers are © Y1Z and are licensed under the same
 CC BY-SA 4.0 terms.
 
 ## Japanese Wiktionary
