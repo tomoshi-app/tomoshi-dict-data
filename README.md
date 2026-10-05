@@ -36,7 +36,7 @@ to the latest version; each release also has its own):
 |---|---|
 | `entries`, `forms` | JMdict entries (~217k) and surface-form index. Entry JSON keeps glosses, POS, priority, JLPT level, variant notes; **example sentences are stripped** (see below) |
 | `jpn_defs` | Japanese definitions: Japanese Wiktionary (via kaikki.org Wiktextract) + LLM-generated definitions derived from JMdict glosses |
-| `zh_defs` / `zh_defs_zhtw` | Chinese translations of JMdict glosses (~217k, Simplified / Traditional). No `_en` variant: the English glosses are the JMdict originals inside `entries` |
+| `zh_defs` / `zh_defs_zhtw` | Chinese translations of JMdict glosses (~217k, Simplified / Traditional); since the 2026-10-06 release each sense's `data` JSON may also carry `notes`, the Chinese translation of JMdict's English sense note (`s_inf`, 5,180 distinct notes). No `_en` variant: the English glosses are the JMdict originals inside `entries` |
 | `zh_variant_note` (+`_zhtw`, `_en`) | Kanji-variant usage notes (写法辨析) |
 | `cn_contrast` (+`_zhtw`) | zh/ja false-friend contrast notes (译法辨析), keyed by Chinese word |
 | `cn_contrast_en` | English→Japanese word-choice cards (~9.9k): for an English word with several Japanese renderings, which one to pick and why. Keyed by English word; same schema as `cn_contrast` |
