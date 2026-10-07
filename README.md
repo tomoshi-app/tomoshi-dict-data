@@ -25,9 +25,10 @@ data versions shipped in the Tomoshi app.
 
 The same file is mirrored, with identical SHA-256, on
 [Hugging Face](https://huggingface.co/datasets/yuany1z/tomoshi-dict-data)
-(dataset `yuany1z/tomoshi-dict-data`, tagged per version) and archived on
-[Zenodo](https://doi.org/10.5281/zenodo.22672053) with a DOI for citation (this DOI always resolves
-to the latest version; each release also has its own):
+(dataset `yuany1z/tomoshi-dict-data`, tagged per version). A snapshot is also archived on
+[Zenodo](https://doi.org/10.5281/zenodo.22672053) with a DOI for citation; Zenodo is **not** updated
+with every release (the concept DOI resolves to the most recent snapshot, currently 2026-10-06), so for
+the current data use GitHub or Hugging Face:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22672053.svg)](https://doi.org/10.5281/zenodo.22672053)
 
 ## What's inside
